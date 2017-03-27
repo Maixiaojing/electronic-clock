@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+}
+#zt{
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+}
+#Time{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 220px 240px; 
+}
+
+.white{
+	width: 20px;
+	height: 150px;
+	background: white;
+	float: left;
+	background: black;
+}
+
+.circle_top{
+	width: 20px;
+	height: 20px;
+	background: rgba(163,255,25,1);
+	float: left;
+	position: relative;
+	left: 10px;
+	top: 50px;
+	animation:myfirst 1s ease-out infinite;
+}
+
+.circle_bottom{
+	width: 20px;
+	height: 20px;
+	background:rgba(163,255,25,1);
+	float: left;
+	position: relative;
+	left: -10px;
+	top: 100px;
+	animation:myfirst 1s ease-out infinite;
+}
+@keyframes myfirst{
+	0%{background: rgba(163,255,25,1);}
+	10%{background: rgba(163,255,25,0);}
+	50%{background: rgba(163,255,25,0);}
+	60%{background: rgba(163,255,25,1);}
+	100%{background: rgba(163,255,25,1);}
+}
+#hours_1,#hours_2,#Minutes_1,
+#Minutes_2,#seconds_1,#seconds_2{
+	width: 70px;
+	height: 130px;
+	position: relative;
+	float: left;
+}
+.s1{
+	width: 50px;
+	height: 15px;
+	background:rgba(163,255,25,.1);
+	border-radius: 10px;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+.s2{
+	width: 15px;
+	height: 50px;
+	background:rgba(163,255,25,.1);
+	position: absolute;
+	border-radius: 10px;
+	top:20px;
+	left: 0px;
+}
+.s3{
+	width: 15px;
+	height: 50px;
+	background:rgba(163,255,25,.1);
+	border-radius: 10px;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+.s4{
+	width: 50px;
+	height: 15px;
+	background:rgba(163,255,25,.1);
+	border-radius: 10px;
+	position: absolute;
+	top: 75px;
+	left: 10px;
+}
+.s5{
+	width: 15px;
+	height: 50px;
+	background:rgba(163,255,25,.1);
+	border-radius: 10px;
+	position: absolute;
+	top: 95px;
+	left: 0px;
+}
+.s6{
+	width: 15px;
+	height: 50px;
+	background:rgba(163,255,25,.1);
+	border-radius: 10px;
+	position: absolute;
+	top: 95px;
+	right: 0px;
+}
+.s7{
+	width: 50px;
+	height: 15px;
+	background:rgba(163,255,25,.1);
+	border-radius: 10px;
+	position: absolute;
+	top: 150px;
+	left: 10px;
+
+}
+
+#Time .one .s3,#Time .one .s6,
+#Time .two .s1,#Time .two .s3,#Time .two .s4,#Time .two .s5,#Time .two .s7,
+#Time .three .s1,#Time .three .s3,#Time .three .s4,#Time .three .s6,#Time .three .s7,
+#Time .four .s2,#Time .four .s3,#Time .four .s4,#Time .four .s6,
+#Time .five .s1,#Time .five .s2,#Time .five .s4,#Time .five .s6,#Time .five .s7,
+#Time .six .s1,#Time .six .s2,#Time .six .s4,#Time .six .s5,#Time .six .s6,#Time .six .s7,
+#Time .seven .s1,#Time .seven .s3,#Time .seven .s6,
+#Time .eight .s1,#Time .eight .s2,#Time .eight .s3,#Time .eight .s4,#Time .eight .s5,#Time .eight .s6,#Time .eight .s7,
+#Time .nine .s1,#Time .nine .s2,#Time .nine .s3,#Time .nine .s4,#Time .nine .s6,#Time .nine .s7,
+#Time .zero .s1,#Time .zero .s2,#Time .zero .s3,#Time .zero .s5,#Time .zero .s6,#Time .zero .s7{
+	background:rgba(163,255,25,1);
+}
+.data{
+	width: 1100px;
+	height: 100%;
+	text-align: center;
+}
+
+#NO1{
+	color: rgba(163,255,25,1);
+	font-size: 30px;
+	padding-right: 100px;
+	
+}
+#NO2{
+	color: rgba(163,255,25,1);
+	font-size: 30px;
+}
